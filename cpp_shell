@@ -1,0 +1,22 @@
+# /bin/sh 
+#  
+#   make cpp 
+#
+#
+
+echo "make file $1"
+echo "argc = $#"
+
+if [ $# ==  1 ] ;then
+	echo "detele file of out"
+	FILE_NAME=$1
+	rm out
+	g++ -o out $FILE_NAME
+fi
+
+if [ -f out ]; then 
+	./out
+	echo "$FILE_NAME > run ok"
+else
+	echo "$FILE_NAME > make failed"
+fi
