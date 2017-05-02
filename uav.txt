@@ -1,3 +1,4 @@
 vehicle_gps_position : 车载gps位置
 satellite: 卫星
 spare: 备用
+bootstrap: 引导程序
