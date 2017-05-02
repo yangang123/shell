@@ -2,3 +2,5 @@ vehicle_gps_position : 车载gps位置
 satellite: 卫星
 spare: 备用
 bootstrap: 引导程序
+1. execl中恢复网格的技巧：
+1.1 复制其他地方的网格到没有网格的地方
