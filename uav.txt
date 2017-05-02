@@ -1,2 +1,3 @@
 vehicle_gps_position : 车载gps位置
 satellite: 卫星
+spare: 备用
